@@ -1,6 +1,6 @@
 library algorithms;
 
-// selection sort algorithm O(n^2)
+// Selection sort algorithm O(n^2)
 void selectionSort(List<num> list) {
   for (int i = list.length - 1; i > 0; i--) {
     num largest = 0;
