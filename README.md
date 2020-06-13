@@ -10,12 +10,12 @@ Implementation of common algorithms in Dart with simple explanation.
 * Linear Search
 * Binary Search
 
-### math
+### Math
 * Factorial
 * Fibonacci
 * Number Reversed
 * Prime
 * Sqrt
 
-### ciphers
+### Ciphers
 * Roman Numerals
