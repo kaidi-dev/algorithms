@@ -11,11 +11,11 @@ Implementation of common algorithms in Dart with simple explanation.
 * Binary Search
 
 ### math
-* factorial
-* fibonacci
-* number reversed
-* prime
-* sqrt
+* Factorial
+* Fibonacci
+* Number Reversed
+* Prime
+* Sqrt
 
 ### ciphers
-* roman numerals
+* Roman Numerals
