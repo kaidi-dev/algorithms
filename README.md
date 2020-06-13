@@ -1,6 +1,6 @@
 Algorithms
 -----------
-Implementation of common algorithms in Dart.
+Implementation of common algorithms in Dart with simple explanation.
 
 ### Sort
 * Bubble Sort
