@@ -21,20 +21,8 @@ num binarySearch(List<num> numbersArray, num keyNumber) {
 }
 
 void main() {
-  List<num> numbersList = [
-    -12,
-    -1,
-    0.5,
-    2.75,
-    7,
-    32,
-    89,
-    90.034,
-    90.5,
-    112,
-  ];
-
-  int keywordIndex = binarySearch(numbersList, 0.5);
+  List<num> numbersList = [-12, -1, 0.5, 2.75, 7, 32, 89, 90.034, 90.5, 112];
+  int keywordIndex = binarySearch(numbersList, 1);
   keywordIndex == -1
       ? print('لا يوجد هذا العنصر')
       : print('تم إيجاد هذا العنصر في الموقع $keywordIndex');

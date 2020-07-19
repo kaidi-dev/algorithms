@@ -12,6 +12,6 @@ int factorial(int x) {
 }
 
 void main() {
-  int result = factorial(5);
-  print('قيمة مضروب العدد 5 هو $result');
+  int result = factorial(7);
+  print('قيمة مضروب العدد 7 هو $result');
 }
