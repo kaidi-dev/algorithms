@@ -1,6 +1,19 @@
+// Copyright 2020 Ammar Yasser. All rights reserved.
+// Use of this source code is governed by a BSD 2-Clause "Simplified" license
+// that can be found in the LICENSE file.
+
 library algorithms;
 
-// Bubble sort algorithm O(n^2)
+// time complexity:
+//  Worst  |  Average  | Best
+//  О(n^2) |  О(n^2)   | O(n)
+
+// space complexity:
+//  Worst |  Average |  Best
+//  O(1)  |  O(1)    |  None
+
+// stability: stable
+
 void bubbleSort(List<num> list) {
   bool swapped;
   do {

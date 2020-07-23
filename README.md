@@ -3,12 +3,15 @@ Algorithms
 _Implementation of common algorithms in Dart with simple explanation._
 
 ### Sort
-* [Bubble Sort](https://github.com/heda7/algorithms/blob/master/sort/bubble_sort.dart)
-* [Selection Sort](https://github.com/heda7/algorithms/blob/master/sort/selection_sort.dart)
+* [Bubble sort](https://github.com/heda7/algorithms/blob/master/sort/bubble_sort.dart)
+* [Selection sort](https://github.com/heda7/algorithms/blob/master/sort/selection_sort.dart)
+* [Insertion sort](https://github.com/heda7/algorithms/blob/master/sort/insertion_sort.dart)
+* [Quick sort](https://github.com/heda7/algorithms/blob/master/sort/quick_sort.dart)
+* [Merge sort]()
 
 ### Search
-* [Linear Search](https://github.com/heda7/algorithms/blob/master/search/linear_search.dart)
-* [Binary Search](https://github.com/heda7/algorithms/blob/master/search/binary_search.dart)
+* [Linear search](https://github.com/heda7/algorithms/blob/master/search/linear_search.dart)
+* [Binary search](https://github.com/heda7/algorithms/blob/master/search/binary_search.dart)
 
 ### Math
 * [Factorial](https://github.com/heda7/algorithms/blob/master/math/factorial.dart)
@@ -18,4 +21,5 @@ _Implementation of common algorithms in Dart with simple explanation._
 * [Sqrt](https://github.com/heda7/algorithms/blob/master/math/sqrt.dart)
 
 ### Ciphers
-* [Roman Numerals](https://github.com/heda7/algorithms/blob/master/ciphers/roman_numerals.dart)
+* [Roman numerals](https://github.com/heda7/algorithms/blob/master/ciphers/roman_numerals.dart)
+* [Caesar cipher](https://github.com/heda7/algorithms/blob/master/ciphers/caesar_cipher.dart)

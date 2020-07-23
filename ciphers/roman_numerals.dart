@@ -1,6 +1,9 @@
+// Copyright 2020 Ammar Yasser. All rights reserved.
+// Use of this source code is governed by a BSD 2-Clause "Simplified" license
+// that can be found in the LICENSE file.
+
 library algorithms;
 
-// roman numerals algorithm O(n)
 class RomanNumerals {
   static Map<String, int> romanSymbols = {
     'I': 1,
@@ -44,14 +47,20 @@ class RomanNumerals {
     "I"
   ];
 
+// time complexity:
+//  Worst  |  Average    | Best
+//  О(n^2) |  О(n log n) | О(n log n)
+
+// space complexity:
+//  Worst    | Average  |  Best
+//  O(log n) | O(log n) |  None
+
   int romanToInt(String romanNumber) {
     String prev = ' ';
     int sum = 0;
     int newPrev = 0;
-
     for (int i = romanNumber.length - 1; i >= 0; i--) {
       String currentChar = romanNumber[i];
-
       if (prev != ' ') {
         newPrev = romanSymbols[prev] > newPrev ? romanSymbols[prev] : newPrev;
       }
@@ -61,11 +70,18 @@ class RomanNumerals {
       } else {
         sum -= currentNum;
       }
-
       prev = currentChar;
     }
     return sum;
   }
+
+// time complexity:
+//  Worst  |  Average    | Best
+//  О(n^2) |  О(n log n) | О(n log n)
+
+// space complexity:
+//  Worst    | Average  |  Best
+//  O(log n) | O(log n) |  None
 
   String intToRoman(int x) {
     if (x < 0) {
@@ -73,18 +89,24 @@ class RomanNumerals {
     } else if (num == 0) {
       return "nulla";
     }
-
     final builder = StringBuffer();
     for (int a = 0; a < arabianRomanNumbers.length; a++) {
       // equals 1 only when arabianRomanNumbers[a] = num
       final times = (x / arabianRomanNumbers[a]).truncate();
       // executes n times where n is the number of times you have to add
-      // the current roman number value to reach current num.
+      // the current roman number value to reach num.
       builder.write(romanNumbers[a] * times);
       // subtract previous roman number value from num
       x -= times * arabianRomanNumbers[a];
     }
-
     return builder.toString();
   }
+}
+
+void main() {
+  RomanNumerals romanNumerals = RomanNumerals();
+  int decimalNumber = romanNumerals.romanToInt("VII");
+  String romanNumber = romanNumerals.intToRoman(700);
+  print("VII = $decimalNumber");
+  print("7000 = $romanNumber");
 }
