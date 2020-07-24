@@ -4,13 +4,8 @@
 
 library algorithms;
 
-// time complexity:
-//  Worst  |  Average  | Best
-//  О(n) |    О(n)   |   O(n)
-
-// space complexity:
-//  Worst |  Average |  Best
-//  None  |  None    |  None
+// time complexity: always O(n)
+// space complexity: always None
 
 int linearSearch(List array, String keyword) {
   for (int i = 0; i < array.length; i++)

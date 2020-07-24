@@ -8,9 +8,7 @@ library algorithms;
 //  Worst  |  Average  | Best
 //  О(n^2) |  О(n^2)   | O(n)
 
-// space complexity:
-//  Worst |  Average |  Best
-//  O(1)  |  O(1)    |  O(1)
+// space complexity: always O(n)
 
 // stability: stable
 

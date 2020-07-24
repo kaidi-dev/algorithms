@@ -4,13 +4,8 @@
 
 library algorithms;
 
-// time complexity:
-//  Worst  |  Average  | Best
-//  О(n)   |  О(n)     | O(n)
-
-// space complexity:
-//  Worst |  Average |  Best
-//  O(1)  |  O(1)    |  O(1)
+// time complexity: always O(n)
+// space complexity: always O(n)
 
 const firstUpperCharCode = 65;
 const firstLowerCharCode = 97;

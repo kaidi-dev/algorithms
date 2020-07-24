@@ -4,13 +4,8 @@
 
 library algorithms;
 
-// time complexity:
-//  Worst  |  Average  | Best
-//  О(n^2) |  О(n^2)   | О(n^2)
-
-// space complexity:
-//  Worst |  Average |  Best
-//  O(1)  |  O(1)    |  O(1)
+// time complexity: always O(n^2)
+// space complexity: always O(n)
 
 // stability: unstable in common implementations but it can be modified to be stable
 

@@ -1,6 +1,12 @@
+// Copyright 2020 Ammar Yasser. All rights reserved.
+// Use of this source code is governed by a BSD 2-Clause "Simplified" license
+// that can be found in the LICENSE file.
+
 library algorithms;
 
-// floor sqrt algorithm O(log n)
+// time complexity: always O(n)
+// space complexity: always O(n)
+
 int sqrt(int x) {
   if (x == 0 || x == 1) return x;
   int start = 1, end = x, answer = 0;

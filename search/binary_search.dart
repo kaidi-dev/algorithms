@@ -5,12 +5,12 @@
 library algorithms;
 
 // time complexity:
-//  Worst    |  Average    | Best
-//  О(log n) |  О(log n)   | О(log n)
+//  Worst  |  Average  | Best
+//  О(n^2) |  О(n^2)   | O(n)
 
 // space complexity:
 //  Worst |  Average |  Best
-//  O(1)  |  O(1)    |  O(1)
+//  O(n)  |  O(n)    |  None
 
 num binarySearch(List<num> numbersArray, num keyNumber) {
   int low = 0;

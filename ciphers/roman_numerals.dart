@@ -47,13 +47,8 @@ class RomanNumerals {
     "I"
   ];
 
-// time complexity:
-//  Worst  |  Average    | Best
-//  О(n^2) |  О(n log n) | О(n log n)
-
-// space complexity:
-//  Worst    | Average  |  Best
-//  O(log n) | O(log n) |  None
+// time complexity: always O(n)
+// space complexity: always O(n)
 
   int romanToInt(String romanNumber) {
     String prev = ' ';
@@ -75,13 +70,8 @@ class RomanNumerals {
     return sum;
   }
 
-// time complexity:
-//  Worst  |  Average    | Best
-//  О(n^2) |  О(n log n) | О(n log n)
-
-// space complexity:
-//  Worst    | Average  |  Best
-//  O(log n) | O(log n) |  None
+// time complexity: always O(n)
+// space complexity: always O(n)
 
   String intToRoman(int x) {
     if (x < 0) {
