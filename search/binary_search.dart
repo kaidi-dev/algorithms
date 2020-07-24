@@ -8,9 +8,7 @@ library algorithms;
 //  Worst  |  Average  | Best
 //  О(n^2) |  О(n^2)   | O(n)
 
-// space complexity:
-//  Worst |  Average |  Best
-//  O(n)  |  O(n)    |  None
+// space complexity: always O(1)
 
 num binarySearch(List<num> numbersArray, num keyNumber) {
   int low = 0;
@@ -32,7 +30,7 @@ num binarySearch(List<num> numbersArray, num keyNumber) {
 }
 
 void main() {
-  List<num> numbersList = [-12, -1, 0.5, 2.75, 7, 32, 90.034];
+  List<num> numbersList = [-12, -1, 0.5, 2.75, 7];
   int keywordIndex = binarySearch(numbersList, 1);
   keywordIndex == -1
       ? print('لا يوجد هذا العنصر')

@@ -4,6 +4,15 @@
 
 library algorithms;
 
+/// !!!
+/// Dart language has a builtin sort function in the "List" library
+/// that uses insertion sort algorithm if the list elements are under 32
+/// or uses dual pivot quick sort algorithm which is a more complicated
+/// algorithm than the below ordinary single pivot algorithm
+/// for Example:
+/// List<int> numbers = [3, 1, 2, 4, 5];
+/// print(numbers.sort()); // output: [1, 2, 3, 4, 5]
+
 // time complexity:
 //  Worst  |  Average    | Best
 //  О(n^2) |  О(n log n) | О(n log n)

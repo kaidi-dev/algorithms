@@ -4,7 +4,9 @@
 
 library algorithms;
 
-// factorial algorithm O(n)
+// time complexity: always О(n)
+// space complexity: always O(1)
+
 int factorial(int x) {
   int result = 1;
   if (x > 1) {

@@ -4,9 +4,12 @@
 
 library algorithms;
 
-import 'dart:io' show stdin, stdout;
+// time complexity: always О(n)
 
-// fibonacci algorithm O(n)
+// space complexity:
+//  Worst |  Average |  Best
+//  O(n)  |  O(n)    |  O(1)
+
 int fibonacci(int index) {
   int result = 1, f0 = 1, f1 = 1;
   if (index > 1) {
@@ -20,7 +23,6 @@ int fibonacci(int index) {
 }
 
 void main() {
-  stdout.write('أدخل موقع الرقم: ');
-  int index = int.parse(stdin.readLineSync());
+  int index = 3;
   print('عدد فيبوناتشي في الموقع $index هو ${fibonacci(index)}');
 }

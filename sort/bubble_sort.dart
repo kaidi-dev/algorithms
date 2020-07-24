@@ -10,7 +10,7 @@ library algorithms;
 
 // space complexity:
 //  Worst |  Average |  Best
-//  O(n)  |  O(n)    |  None
+//  O(n)  |  O(n)    |  O(1)
 
 // stability: stable
 

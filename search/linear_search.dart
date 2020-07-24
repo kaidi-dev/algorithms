@@ -17,7 +17,6 @@ int linearSearch(List array, String keyword) {
 
 void main() {
   List<String> names = ['عمار', 'ياسر', 'إبراهيم'];
-
   int keywordIndex = linearSearch(names, 'محمد');
   keywordIndex == -1
       ? print('هذه الكلمة غير موجودة')

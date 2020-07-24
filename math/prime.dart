@@ -6,7 +6,9 @@ library algorithms;
 
 import 'sqrt.dart' show sqrt;
 
-// prime algorithm O(n)
+// time complexity: always О(n)
+// space complexity: always O(1)
+
 bool isPrime(int x) {
   bool isPrime = true;
   for (int i = 2; i < sqrt(x); i++) {
