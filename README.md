@@ -7,7 +7,6 @@ _Implementation of common algorithms in Dart with simple explanation._
 * [Selection sort](https://github.com/heda7/algorithms/blob/master/sort/selection_sort.dart)
 * [Insertion sort](https://github.com/heda7/algorithms/blob/master/sort/insertion_sort.dart)
 * [Quick sort](https://github.com/heda7/algorithms/blob/master/sort/quick_sort.dart)
-* [Merge sort]()
 
 ### Search
 * [Linear search](https://github.com/heda7/algorithms/blob/master/search/linear_search.dart)
@@ -19,6 +18,10 @@ _Implementation of common algorithms in Dart with simple explanation._
 * [Number Reversed](https://github.com/heda7/algorithms/blob/master/math/number_reversed.dart)
 * [Prime](https://github.com/heda7/algorithms/blob/master/math/prime.dart)
 * [Sqrt](https://github.com/heda7/algorithms/blob/master/math/sqrt.dart)
+* [Abs](https://github.com/heda7/algorithms/blob/master/math/abs.dart)
+* [Average](https://github.com/heda7/algorithms/blob/master/math/average.dart)
+* [Pow](https://github.com/heda7/algorithms/blob/master/math/pow.dart)
+
 
 ### Ciphers
 * [Roman numerals](https://github.com/heda7/algorithms/blob/master/ciphers/roman_numerals.dart)
