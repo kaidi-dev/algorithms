@@ -1,6 +1,6 @@
 Algorithms
 ----------
-_Implementation of common algorithms in Dart with simple explanation._
+_Implementation of common algorithms in Dart._
 
 ### Sort
 * [Bubble sort](https://github.com/heda7/algorithms/blob/master/sort/bubble_sort.dart)
