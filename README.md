@@ -2,6 +2,14 @@ Algorithms
 ----------
 _Implementation of common algorithms in Dart._
 
+| Symbol | Meaning |
+| - | ------------------------ |
+| O | same or faster algorithm |
+| o | faster algorithm |
+| θ | same complexity algorithm |
+| Ω | same or slower algorithm |
+| ω | slower algorithm |
+
 ### Sort
 * [Bubble sort](https://github.com/heda7/algorithms/blob/master/sort/bubble_sort.dart)
 * [Selection sort](https://github.com/heda7/algorithms/blob/master/sort/selection_sort.dart)
@@ -21,7 +29,6 @@ _Implementation of common algorithms in Dart._
 * [Abs](https://github.com/heda7/algorithms/blob/master/math/abs.dart)
 * [Average](https://github.com/heda7/algorithms/blob/master/math/average.dart)
 * [Pow](https://github.com/heda7/algorithms/blob/master/math/pow.dart)
-
 
 ### Ciphers
 * [Roman numerals](https://github.com/heda7/algorithms/blob/master/ciphers/roman_numerals.dart)
