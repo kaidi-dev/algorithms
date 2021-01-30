@@ -4,7 +4,7 @@ _Implementation of common algorithms in Dart._
 
 ### Asymptotic notations
 
-| Symbol | | Name | Meaning |
+| Symbol | Name | Meaning |
 | - | ------------ | ------------------------ |
 | O | Big-O        | same or faster algorithm |
 | o | little-o     | faster algorithm         |
