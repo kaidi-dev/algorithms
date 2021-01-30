@@ -2,13 +2,15 @@ Algorithms
 ----------
 _Implementation of common algorithms in Dart._
 
-| Symbol | Meaning |
-| - | ------------------------ |
-| O | same or faster algorithm |
-| o | faster algorithm |
-| θ | same complexity algorithm |
-| Ω | same or slower algorithm |
-| ω | slower algorithm |
+### Asymptotic notations
+
+| Symbol | | Name | Meaning |
+| - | ------------ | ------------------------ |
+| O | Big-O        | same or faster algorithm |
+| o | little-o     | faster algorithm         |
+| θ | Theta        | same algorithm           |
+| Ω | Big-Omega    | same or slower algorithm |
+| ω | little-omega | slower algorithm         |
 
 ### Sort
 * [Bubble sort](https://github.com/heda7/algorithms/blob/master/sort/bubble_sort.dart)
